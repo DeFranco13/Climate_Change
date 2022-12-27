@@ -12,43 +12,50 @@ public class ButtonLevel : MonoBehaviour
     public void ButtonDecrease()
     {
         Debug.Log("Decrease Time");
-        TimeCounter++;
+        TimeCounter--;
         UpdateTimer();
     }
     public void ButtonIncrease()
     {
         Debug.Log("Increase Time");
-        TimeCounter--;
+        TimeCounter++;
         UpdateTimer();
     }
     void UpdateTimer() {
         if (TimeCounter == 0) {
             Time = 0.5;
-            text.text = "Time: 0.5x";
+            Debug.Log(Time);
+           // text.text = "Time: 0.5x";
         }
         else if (TimeCounter == 1) {
             Time = 1;
-            text.text = "Time: 1x";
+            Debug.Log(Time);
+            // text.text = "Time: 1x";
         }
         else if (TimeCounter == 2) {
             Time = 2;
-            text.text = "Time: 2x";
+            Debug.Log(Time);
+            // text.text = "Time: 2x";
         }
         else if (TimeCounter == 3) {
             Time = 5;
-            text.text = "Time: 5x";
+            Debug.Log(Time);
+            // text.text = "Time: 5x";
         }
         else if (TimeCounter == 4) {
             Time = 10;
-            text.text = "Time: 10x";
+            Debug.Log(Time);
+            // text.text = "Time: 10x";
         }
         else if (TimeCounter > 4) {
             TimeCounter = 4;
-            
+            Debug.Log(Time);
+
         }
         else if (TimeCounter < 0) {
             TimeCounter = 0;
-            
+            Debug.Log(Time);
+
         }
     }
     

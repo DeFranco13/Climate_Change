@@ -114,6 +114,7 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/jaar2/3dgameprog/VR_Project_Steven/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
@@ -452,9 +453,6 @@
 "Assets/Level 5/Assets/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs"
 "Assets/Level 5/Assets/Standard Assets/Vehicles/Car/Scripts/Suspension.cs"
 "Assets/Level 5/Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs"
-"Assets/level3/scripts/controller.cs"
-"Assets/level3/scripts/MouseLook.cs"
-"Assets/level3/scripts/PlayerMovement.cs"
 -langversion:9.0
 
 /deterministic

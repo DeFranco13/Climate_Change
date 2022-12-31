@@ -364,6 +364,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Level 3/Blink/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs"
 "Assets/Level 5/Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs"
 "Assets/Level 5/Assets/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs"
 "Assets/Level 5/Assets/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs"

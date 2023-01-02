@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-D:\School\Jaar 2\3D_GameDev\VR_project\VR_Project
-=======
 F:\School\AP - Cyber Security - Jaar 2\Sem 1\3D\VR_Project
->>>>>>> 57af88cfe03eb4a97c8bbded9126e1ebee5b22bd

@@ -92,6 +92,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
     <Compile Include="Assets\Level 4\Scripts\MoveBackAndForth.cs" />
+    <Compile Include="Assets\Level 3\ToggleLevel_3.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
@@ -100,11 +101,12 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\AutoMoveAndRotate.cs" />
     <Compile Include="Assets\MainMenu\Scripts\LoadLevel.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\Level 4\ToggleLevel_4.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Level 1\Script\ButtonLevel.cs" />
+    <Compile Include="Assets\Level 5\ToggleLevel_5.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\SimpleMouseRotator.cs" />
@@ -118,7 +120,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
-    <Compile Include="Assets\Level 1\Script\ToggleLevel.cs" />
+    <Compile Include="Assets\Level 1\Script\ToggleLevel_1.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
@@ -143,12 +145,14 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\Level 2\ToggleLevel_2.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\Restarter.cs" />
     <Compile Include="Assets\MainMenu\Scripts\RotateAround.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
+    <Compile Include="Assets\AI\ButtonLevel.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\EventSystemChecker.cs" />

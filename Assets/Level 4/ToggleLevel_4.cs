@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ToggleLevel : MonoBehaviour
+public class ToggleLevel_4 : MonoBehaviour
 {
     // Ticks CO2 INIT
     public int CO2 = 10;

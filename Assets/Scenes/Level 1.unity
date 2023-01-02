@@ -15156,7 +15156,6 @@ GameObject:
   - component: {fileID: 494500414}
   - component: {fileID: 494500416}
   - component: {fileID: 494500415}
-  - component: {fileID: 494500417}
   m_Layer: 5
   m_Name: Image - Button
   m_TagString: Untagged
@@ -15183,8 +15182,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118.919556, y: 485.69}
-  m_SizeDelta: {x: 1007.881, y: 108.97}
+  m_AnchoredPosition: {x: -44.696495, y: 485.7}
+  m_SizeDelta: {x: 1158.9462, y: 108.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &494500415
 MonoBehaviour:
@@ -15224,19 +15223,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494500413}
   m_CullTransparentMesh: 1
---- !u!114 &494500417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494500413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df38ce81bb989f143bf4eab3de3c4767, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 0}
 --- !u!1 &496770070
 GameObject:
   m_ObjectHideFlags: 0
@@ -18292,8 +18278,9 @@ GameObject:
   - component: {fileID: 602934270}
   - component: {fileID: 602934269}
   - component: {fileID: 602934268}
-  - component: {fileID: 602934273}
   - component: {fileID: 602934274}
+  - component: {fileID: 602934275}
+  - component: {fileID: 602934276}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -18385,7 +18372,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &602934273
+--- !u!114 &602934274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602934267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df38ce81bb989f143bf4eab3de3c4767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &602934275
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18398,7 +18397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CO2: 10
---- !u!114 &602934274
+--- !u!114 &602934276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18407,7 +18406,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 602934267}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df38ce81bb989f143bf4eab3de3c4767, type: 3}
+  m_Script: {fileID: 11500000, guid: 58017e4703da98547b629f7e8c011628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 0}
@@ -25495,7 +25494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 672.05, y: 320}
+  m_AnchoredPosition: {x: 821, y: 319}
   m_SizeDelta: {x: 198.68, y: 229.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &862417840
@@ -29507,7 +29506,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 602934274}
+      - m_Target: {fileID: 602934276}
         m_TargetAssemblyTypeName: ButtonLevel, Assembly-CSharp
         m_MethodName: ButtonDecrease
         m_Mode: 1
@@ -35877,7 +35876,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -790.88745, y: 485.55212}
+  m_AnchoredPosition: {x: -792.3, y: 485.8}
   m_SizeDelta: {x: 463.2361, y: 114.452}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1167725235
@@ -36685,8 +36684,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 602934273}
-        m_TargetAssemblyTypeName: ToggleLevel, Assembly-CSharp
+      - m_Target: {fileID: 602934275}
+        m_TargetAssemblyTypeName: ToggleLevel_1, Assembly-CSharp
         m_MethodName: OldCarsToggle
         m_Mode: 0
         m_Arguments:
@@ -45247,8 +45246,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 602934273}
-        m_TargetAssemblyTypeName: ToggleLevel, Assembly-CSharp
+      - m_Target: {fileID: 602934275}
+        m_TargetAssemblyTypeName: ToggleLevel_1, Assembly-CSharp
         m_MethodName: WindTurbinesToggle
         m_Mode: 0
         m_Arguments:
@@ -52245,7 +52244,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 602934274}
+      - m_Target: {fileID: 602934276}
         m_TargetAssemblyTypeName: ButtonLevel, Assembly-CSharp
         m_MethodName: ButtonIncrease
         m_Mode: 1
@@ -53108,8 +53107,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 602934273}
-        m_TargetAssemblyTypeName: ToggleLevel, Assembly-CSharp
+      - m_Target: {fileID: 602934275}
+        m_TargetAssemblyTypeName: ToggleLevel_1, Assembly-CSharp
         m_MethodName: BusToggle
         m_Mode: 0
         m_Arguments:
@@ -60922,8 +60921,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 602934273}
-        m_TargetAssemblyTypeName: ToggleLevel, Assembly-CSharp
+      - m_Target: {fileID: 602934275}
+        m_TargetAssemblyTypeName: ToggleLevel_1, Assembly-CSharp
         m_MethodName: SolarToggle
         m_Mode: 0
         m_Arguments:
@@ -62888,8 +62887,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 602934273}
-        m_TargetAssemblyTypeName: ToggleLevel, Assembly-CSharp
+      - m_Target: {fileID: 602934275}
+        m_TargetAssemblyTypeName: ToggleLevel_1, Assembly-CSharp
         m_MethodName: FactoryToggle
         m_Mode: 0
         m_Arguments:

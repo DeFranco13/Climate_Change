@@ -678,7 +678,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1680102617}
+      - m_Target: {fileID: 1680102624}
         m_TargetAssemblyTypeName: ButtonLevel, Assembly-CSharp
         m_MethodName: ButtonDecrease
         m_Mode: 1
@@ -1271,8 +1271,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1680102618}
-        m_TargetAssemblyTypeName: ToggleLevel, Assembly-CSharp
+      - m_Target: {fileID: 1680102623}
+        m_TargetAssemblyTypeName: ToggleLevel_4, Assembly-CSharp
         m_MethodName: SolarToggle
         m_Mode: 0
         m_Arguments:
@@ -1505,7 +1505,6 @@ GameObject:
   - component: {fileID: 805021184}
   - component: {fileID: 805021187}
   - component: {fileID: 805021186}
-  - component: {fileID: 805021185}
   m_Layer: 5
   m_Name: Image - Button
   m_TagString: Untagged
@@ -1535,19 +1534,6 @@ RectTransform:
   m_AnchoredPosition: {x: -118.919556, y: 485.69}
   m_SizeDelta: {x: 1007.881, y: 108.97}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &805021185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805021183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df38ce81bb989f143bf4eab3de3c4767, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 0}
 --- !u!114 &805021186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1776,8 +1762,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1680102618}
-        m_TargetAssemblyTypeName: ToggleLevel, Assembly-CSharp
+      - m_Target: {fileID: 1680102623}
+        m_TargetAssemblyTypeName: ToggleLevel_4, Assembly-CSharp
         m_MethodName: WindTurbinesToggle
         m_Mode: 0
         m_Arguments:
@@ -2641,7 +2627,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1680102617}
+      - m_Target: {fileID: 1680102624}
         m_TargetAssemblyTypeName: ButtonLevel, Assembly-CSharp
         m_MethodName: ButtonIncrease
         m_Mode: 1
@@ -2777,8 +2763,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1680102618}
-        m_TargetAssemblyTypeName: ToggleLevel, Assembly-CSharp
+      - m_Target: {fileID: 1680102623}
+        m_TargetAssemblyTypeName: ToggleLevel_4, Assembly-CSharp
         m_MethodName: BusToggle
         m_Mode: 0
         m_Arguments:
@@ -2956,8 +2942,8 @@ GameObject:
   - component: {fileID: 1680102621}
   - component: {fileID: 1680102620}
   - component: {fileID: 1680102619}
-  - component: {fileID: 1680102618}
-  - component: {fileID: 1680102617}
+  - component: {fileID: 1680102623}
+  - component: {fileID: 1680102624}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2965,32 +2951,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1680102617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680102616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df38ce81bb989f143bf4eab3de3c4767, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 0}
---- !u!114 &1680102618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680102616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aa8eb891c637fe47a1c4deba2eaf7f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CO2: 10
 --- !u!114 &1680102619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3075,6 +3035,32 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1680102623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680102616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea008cc0834bc84381a171a6ab42e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CO2: 10
+--- !u!114 &1680102624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680102616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58017e4703da98547b629f7e8c011628, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 0}
 --- !u!1001 &1727680764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3218,8 +3204,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1680102618}
-        m_TargetAssemblyTypeName: ToggleLevel, Assembly-CSharp
+      - m_Target: {fileID: 1680102623}
+        m_TargetAssemblyTypeName: ToggleLevel_4, Assembly-CSharp
         m_MethodName: FactoryToggle
         m_Mode: 0
         m_Arguments:
@@ -3317,8 +3303,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1680102618}
-        m_TargetAssemblyTypeName: ToggleLevel, Assembly-CSharp
+      - m_Target: {fileID: 1680102623}
+        m_TargetAssemblyTypeName: ToggleLevel_4, Assembly-CSharp
         m_MethodName: OldCarsToggle
         m_Mode: 0
         m_Arguments:

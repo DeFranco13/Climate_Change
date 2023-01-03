@@ -16,7 +16,7 @@ public class MoveBackAndForth : MonoBehaviour
     {
         if (startDirection == Direction.Right)
             direction = 1;
-        else
+        else if(startDirection == Direction.Left)
             direction = -1;
 
         startPosition = gameObject.transform.position.z;

@@ -7,8 +7,23 @@ public class ButtonLevel : MonoBehaviour
 {
     public Text text;
 
+    bool isPaused = false;
     double Time = 1;
     double TimeCounter = 1;
+
+    public void ButtonPause()
+    {
+        isPaused = true;
+        if (isPaused)
+        {
+            Debug.Log("Pauze menu is true!");
+            // Screen pauzeren en ticks
+            isPaused = false;
+        }
+        
+
+    }
+
     public void ButtonDecrease()
     {
         Debug.Log("Decrease Time");

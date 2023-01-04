@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 984
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 102
+  controlID: 67
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 403.33325
     height: 934
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 90
+  controlID: 68
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 91
+  controlID: 69
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Level 2/VertexColorFarmAnimals/Prefabs
+    - Assets/Level 2/Sounds
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Level 2/VertexColorFarmAnimals/Prefabs
+  - Assets/Level 2/Sounds
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\School\Jaar 2\3D_GameDev\VR_project\VR_Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 78da0200
-    m_LastClickedID: 187000
-    m_ExpandedIDs: 00000000228000002480000026800000288000002a8000002c8000002e80000030800000328000003480000036800000388000003a8000003c8000000e3d02006eda020000ca9a3b
+    m_SelectedIDs: c82c0200
+    m_LastClickedID: 142536
+    m_ExpandedIDs: 00000000b0770000b2770000b4770000b6770000b8770000ba770000bc770000be770000c0770000c2770000c4770000c6770000c8770000ca770000e2770000fe77000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000228000002480000026800000288000002a8000002c8000002e80000030800000328000003480000036800000388000003a8000003c800000
+    m_ExpandedIDs: 00000000b0770000b2770000b4770000b6770000b8770000ba770000bc770000be770000c0770000c2770000c4770000c6770000c8770000ca770000cc770000ce770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 20cfffff36fbffff
+      m_SelectedIDs: bcacffff
+      m_LastClickedID: -21316
+      m_ExpandedIDs: feb8ffffcefaffffcc5e00008464000040680000aa720000f88400000c8c0000a492000006990000829d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -772,9 +772,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 885.9599, y: 94.72391, z: -34.029915}
+    m_Target: {x: 883.948, y: 61.163033, z: 20.492521}
     speed: 2
-    m_Value: {x: 885.9599, y: 94.72391, z: -34.029915}
+    m_Value: {x: 883.948, y: 61.163033, z: 20.492521}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -821,9 +821,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.3167999, y: 0.07304165, z: -0.024488226, w: -0.94549036}
+    m_Target: {x: -0.19969903, y: 0.2460131, z: -0.051953293, w: -0.9472042}
     speed: 2
-    m_Value: {x: -0.31534207, y: 0.07306922, z: -0.024375547, w: -0.9458468}
+    m_Value: {x: -0.2010897, y: 0.24589834, z: -0.052314688, w: -0.946763}
   m_Size:
     m_Target: 10
     speed: 2

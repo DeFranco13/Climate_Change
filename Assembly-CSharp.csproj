@@ -222,6 +222,7 @@
     <None Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Level 2\VertexColorFarmAnimals\Shaders\VertexColorUnlit.shader" />
+    <None Include="Assets\Level 2\tractor and planter\readme.txt" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />

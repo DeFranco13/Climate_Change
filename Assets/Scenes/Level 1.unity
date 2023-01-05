@@ -15978,6 +15978,7 @@ GameObject:
   - component: {fileID: 502148395}
   - component: {fileID: 502148397}
   - component: {fileID: 502148396}
+  - component: {fileID: 502148398}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -16025,7 +16026,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Year:   2022'
+  m_text: 'Year:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16052,7 +16053,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.45
+  m_fontSize: 72
   m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16102,6 +16103,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502148394}
   m_CullTransparentMesh: 1
+--- !u!114 &502148398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502148394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14beaba16aa10b2478bcd87b4d9bb3bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefix: 'Year: '
+  StartYear: 2022
 --- !u!1 &504334936
 GameObject:
   m_ObjectHideFlags: 0
@@ -19323,10 +19338,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 602934267}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58017e4703da98547b629f7e8c011628, type: 3}
+  m_Script: {fileID: 11500000, guid: 6566a741b05572a429ad98dc9a3553a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
+  SpeedOptions:
+  - 0.5
+  - 1
+  - 2.5
+  - 5
+  BackwardButton: {fileID: 1003509781}
+  ForwardButton: {fileID: 1755738118}
+  DefaultSpeedIndex: 1
 --- !u!1001 &603403078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30466,6 +30488,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -30539,6 +30562,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 37.963, y: -90, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c26a71aabfbc440a0e0f9785618d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CO2: 0
+  Multipliers: []
+  DefaultMultiplier: 0.1
 --- !u!1 &966289182
 GameObject:
   m_ObjectHideFlags: 0
@@ -31305,7 +31343,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 602934276}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ButtonLevel, Assembly-CSharp
         m_MethodName: ButtonDecrease
         m_Mode: 1
@@ -32761,7 +32799,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 602934276}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ButtonLevel, Assembly-CSharp
         m_MethodName: ButtonPause
         m_Mode: 1
@@ -55198,7 +55236,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 602934276}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ButtonLevel, Assembly-CSharp
         m_MethodName: ButtonIncrease
         m_Mode: 1

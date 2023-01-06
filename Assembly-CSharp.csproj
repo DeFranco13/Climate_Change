@@ -145,7 +145,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\AlphaButtonClickMask.cs" />
-    <Compile Include="Assets\Level 2\ToggleLevel_2.cs" />
+    <Compile Include="Assets\Level 2\Scripts\ToggleLevel_2.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\Restarter.cs" />
     <Compile Include="Assets\MainMenu\Scripts\RotateAround.cs" />
@@ -166,6 +166,9 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
+    <Compile Include="Assets\Level 2\Scripts\CarMove.cs" />
+    <Compile Include="Assets\Level 2\Scripts\TractorMove.cs" />
+    <Compile Include="Assets\Level 2\Scripts\AnimalRotating.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Level 5\Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />

@@ -9,10 +9,10 @@ public class ToggleLevel_2 : MonoBehaviour
 
     // Declareren van attributen
     bool solarToggle;
-    bool busToggle;
+    bool tractorToggle;
     bool windTurbinesToggle;
-    bool factoryToggle;
-    bool oldCarsToggle;
+    bool carsToggle;
+    bool cowsToggle;
 
 
     // Methodes voor Toggle aan te zetten
@@ -26,41 +26,41 @@ public class ToggleLevel_2 : MonoBehaviour
         Debug.Log("Solar is " + state + ". CO2 = " + CO2);
     }
 
-    public void BusToggle(bool state) 
+    public void TractorToggle(bool state) 
     {
-        busToggle = state;
+        tractorToggle = state;
         if (state)
         {
-            CO2 = CO2 - 1;
+            CO2 = CO2 + 4;
         }
-        Debug.Log("Bus is " + state + ". CO2 = " + CO2);
+        Debug.Log("Tractor is " + state + ". CO2 = " + CO2);
     }
     public void WindTurbinesToggle(bool state)
     {
         windTurbinesToggle = state;
         if (state)
         {
-            CO2 = CO2 - 2;
+            CO2 = CO2 - 4;
         }
-        Debug.Log("Wind Turbines is " + state + ". CO2 = " + CO2);
+        Debug.Log("Wind Turbines are " + state + ". CO2 = " + CO2);
     }
-    public void FactoryToggle(bool state) 
+    public void CarsToggle(bool state) 
     {
-        factoryToggle = state;
+        carsToggle = state;
         if (state)
         {
-            CO2 = CO2 + 9;
+            CO2 = CO2 + 7;
         }
-        Debug.Log("Factory is " + state + ". CO2 = " + CO2);
+        Debug.Log("cars are " + state + ". CO2 = " + CO2);
     }
-    public void OldCarsToggle(bool state)
+    public void CowsToggle(bool state)
     {        
-        oldCarsToggle = state;
+        cowsToggle = state;
         if (state)
         {
-            CO2 = CO2 + 4;
+            CO2 = CO2 + 2;
         }
-        Debug.Log("Old Cars is " + state + ". CO2 = " + CO2);
+        Debug.Log("Cows are " + state + ". CO2 = " + CO2);
     }
     
 }

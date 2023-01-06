@@ -88,6 +88,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
+    <Compile Include="Assets\Level 2\Scripts\TractorMove.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\CurveControlledBob.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
@@ -96,9 +97,11 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\Level 2\Scripts\AnimalRotating.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\Level 2\Scripts\CarMove.cs" />
     <Compile Include="Assets\MainMenu\Scripts\LoadLevel.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Level 4\ToggleLevel_4.cs" />
@@ -145,7 +148,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\AlphaButtonClickMask.cs" />
-    <Compile Include="Assets\Level 2\ToggleLevel_2.cs" />
+    <Compile Include="Assets\Level 2\Scripts\ToggleLevel_2.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\Restarter.cs" />
     <Compile Include="Assets\MainMenu\Scripts\RotateAround.cs" />

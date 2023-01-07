@@ -20,8 +20,6 @@ public class ButtonLevel : MonoBehaviour
             // Screen pauzeren en ticks
             isPaused = false;
         }
-        
-
     }
 
     public void ButtonDecrease()

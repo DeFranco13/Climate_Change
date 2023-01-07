@@ -20,7 +20,8 @@ public class SpeedDisplay : MonoBehaviour
         currentSpeedIndex = DefaultSpeedIndex;
         TickObject.instance.Multipliers.Add(SpeedOptions[currentSpeedIndex]);
         setSpeedText();
-
+        
+        // Set listener on backbutton if it exists
         if (BackwardButton != null)
         {
             BackwardButton.onClick.AddListener(() =>
@@ -35,6 +36,7 @@ public class SpeedDisplay : MonoBehaviour
             });
         }
 
+        // Set listener on forwardbutton if it exists
         if (ForwardButton != null)
         {
             ForwardButton.onClick.AddListener(() =>
@@ -50,7 +52,7 @@ public class SpeedDisplay : MonoBehaviour
         }
     }
 
-    private void setSpeedText()
+    private void setSpeedText() // Set textfield
     {
         if(textField != null)
         {

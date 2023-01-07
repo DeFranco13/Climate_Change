@@ -13,10 +13,10 @@ public class TickMultiplier : MonoBehaviour
     {
         toggle = GetComponent<Toggle>();
 
-        if (toggle.isOn) // ADD IF TOGGLE DEFAULT IS ON
+        if (toggle.isOn) // Add if toggle default is on
             TickObject.instance.Multipliers.Add(Multiplier);
 
-        toggle.onValueChanged.AddListener(delegate { // WHEN TOGGLE CHANGES, ADD/REMOVE MULTIPLIER
+        toggle.onValueChanged.AddListener(delegate { // When toggle changes, add/remove multiplier
             if (toggle.isOn)
                 add();
             else
@@ -25,13 +25,13 @@ public class TickMultiplier : MonoBehaviour
         });
     }
 
-    private void add()
+    private void add() // Add multiplier and CO2
     {
         TickObject.instance.CO2 += CO2Addition;
         TickObject.instance.Multipliers.Add(Multiplier);
     }
 
-    private void remove()
+    private void remove()// Remove multiplier and CO2
     {
         TickObject.instance.CO2 -= CO2Addition;
         TickObject.instance.Multipliers.Remove(Multiplier);

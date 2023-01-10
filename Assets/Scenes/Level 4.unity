@@ -665,8 +665,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 112.4, y: 19.899963}
-  m_SizeDelta: {x: 110, y: 30}
+  m_AnchoredPosition: {x: 112.4, y: 19.7525}
+  m_SizeDelta: {x: 110, y: 43.3516}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &310703421
 MonoBehaviour:
@@ -1890,7 +1890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.8235294}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.98039216}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2566,8 +2566,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 481.8, y: 20.993164}
-  m_SizeDelta: {x: 110, y: 30}
+  m_AnchoredPosition: {x: 481.8, y: 20.2}
+  m_SizeDelta: {x: 110, y: 39.399}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1038014889
 MonoBehaviour:
@@ -2612,7 +2612,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1038014890}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1680102624}
+        m_TargetAssemblyTypeName: ButtonLevel, Assembly-CSharp
+        m_MethodName: ButtonPause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1038014890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3015,7 +3027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.8235294}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.98039216}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3357,8 +3369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 335.8, y: 20.993164}
-  m_SizeDelta: {x: 110, y: 30}
+  m_AnchoredPosition: {x: 353.8, y: 20.2}
+  m_SizeDelta: {x: 110, y: 41.651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1517290788
 MonoBehaviour:
@@ -3605,7 +3617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.8235294}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.98039216}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3837,7 +3849,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58017e4703da98547b629f7e8c011628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
 --- !u!1001 &1727680764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4648,8 +4659,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -137, y: -26}
-  m_SizeDelta: {x: 209.67, y: 105.4}
+  m_AnchoredPosition: {x: -127.07079, y: -26}
+  m_SizeDelta: {x: 229.4945, y: 105.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083303694
 MonoBehaviour:
@@ -4734,7 +4745,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 20.071533, w: 0}
+  m_margin: {x: 0, y: 0, z: 2.1661072, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4764,8 +4775,8 @@ MonoBehaviour:
   - 0.5
   - 1
   - 2
-  - 4
-  - 10
+  - 2.5
+  - 5
   BackwardButton: {fileID: 310703421}
   ForwardButton: {fileID: 1517290788}
   DefaultSpeedIndex: 1

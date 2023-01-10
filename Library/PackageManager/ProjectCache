@@ -3343,17 +3343,25 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Provides internal registration mechanism for standalone subsystems. 
     It allows a standalone subsystem to inform the Subsystem Manager of its existence.
   status: 0
   errors: []
   versions:
     all:
+    - 1.0.0-preview.4
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
     - 1.1.0
+    - 1.1.1
+    - 1.1.2
     compatible:
     - 1.1.0
-    verified: 1.1.0
+    - 1.1.1
+    - 1.1.2
+    verified: 1.1.2
   dependencies:
   - name: com.unity.modules.subsystems
     version: 1.0.0
@@ -3374,9 +3382,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637314426150000000
   documentationUrl: 
   hasRepository: 1
   repository:

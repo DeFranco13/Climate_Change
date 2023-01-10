@@ -366,6 +366,7 @@
 "Assets/AI/TickObject.cs"
 "Assets/AI/TickTrigger.cs"
 "Assets/Level 1/Script/Level1/MoveForward.cs"
+"Assets/Level 1/Script/RisingWater.cs"
 "Assets/Level 1/Script/ToggleLevel_1.cs"
 "Assets/Level 2/Scripts/AnimalRotating.cs"
 "Assets/Level 2/Scripts/CarMove.cs"

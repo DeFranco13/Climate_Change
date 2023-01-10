@@ -416,22 +416,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/AI
+    - Assets/Level 1
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/AI
+  - Assets/Level 1
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\School\AP - Cyber Security - Jaar 2\Sem 1\3D\VR_Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 685f0000
-    m_LastClickedID: 24424
-    m_ExpandedIDs: 000000003a5f00003c5f00003e5f0000405f0000425f0000445f0000465f0000485f00004a5f00004c5f00004e5f0000505f0000525f0000545f0000565f0000585f00005a5f00005c5f00005e5f0000605f00006a5f000000ca9a3b
+    m_SelectedIDs: 6a5f0000
+    m_LastClickedID: 24426
+    m_ExpandedIDs: 000000003a5f00003c5f00003e5f0000405f0000425f0000445f0000465f0000485f00004a5f00004c5f00004e5f0000505f0000525f0000545f0000565f0000585f00005a5f00005c5f00005e5f0000605f000092d7000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -587,9 +587,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0a200000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 38fbffff
+      m_ExpandedIDs: ca5efeff9ae9feffeaf9feffc45bffff2c6affff48e8ffff28eaffff48eaffff0efaffff38fbffff0a6e000004740000887d0000aaa8000044f50000baf60000e6fc0000d20301005c060100c6060100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -871,9 +871,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1691.8815, y: 983.5957, z: 7.8365784}
+    m_Target: {x: 57.925194, y: 24.260496, z: -53.727585}
     speed: 2
-    m_Value: {x: 1691.8815, y: 983.5957, z: 7.8365784}
+    m_Value: {x: 57.925194, y: 24.260496, z: -53.727585}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -920,13 +920,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.021309216, y: -0.0039018018, z: 0.00010788311, w: -0.99978906}
+    m_Target: {x: 0.10822639, y: -0.74800754, z: 0.1259305, w: 0.64266145}
     speed: 2
-    m_Value: {x: -0.02130871, y: -0.003901709, z: 0.00010788055, w: -0.99976534}
+    m_Value: {x: 0.11014813, y: -0.7475888, z: 0.1281677, w: 0.6423017}
   m_Size:
-    m_Target: 167.69322
+    m_Target: 3.6170313
     speed: 2
-    m_Value: 167.69322
+    m_Value: 3.6170347
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1036,7 +1036,7 @@ MonoBehaviour:
       width: 2216.7314
       height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.47592592
+  m_defaultScale: 0.49537036
   m_LastWindowPixelSize: {x: 1055, y: 535}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1

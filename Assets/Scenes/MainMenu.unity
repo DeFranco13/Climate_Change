@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Climate Change
+  m_text: C  li  m  a  t  e      C  h  a  n g  e
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 86eedf77d48af2640be8a5cd515117b8, type: 2}
   m_sharedMaterial: {fileID: 2553154389887896539, guid: 86eedf77d48af2640be8a5cd515117b8, type: 2}
@@ -1376,7 +1376,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42.55
+  m_fontSize: 29.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

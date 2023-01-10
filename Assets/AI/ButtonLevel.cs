@@ -12,11 +12,12 @@ public class ButtonLevel : MonoBehaviour
     double Time = 1;
     double TimeCounter = 1;
 
+    //Voor het spel te pauzeren wordt komende functie opgeroepen.
     public void ButtonPause()
     {
         if (pause)
         {
-
+            //Play
             Debug.Log("State is: playing");
             pause = false;
 
@@ -24,23 +25,28 @@ public class ButtonLevel : MonoBehaviour
         }
         else
         {
+            //Pauze
             Debug.Log("State is: paused");
 
             pause = true; 
         }
     }
+    //De Timer verhogen 
     public void ButtonDecrease()
     {
         Debug.Log("Decrease Time");
         TimeCounter--;
         UpdateTimer();
     }
+    //De Timer verlagen
     public void ButtonIncrease()
     {
         Debug.Log("Increase Time");
         TimeCounter++;
         UpdateTimer();
     }
+
+    // Controleren of de timer binnen de variatie in snelheden blijft anders wordt deze terug gestuurd nnaar laatste snelheid
     void UpdateTimer() {
         if (TimeCounter == 0) {
             Time = 0.5;

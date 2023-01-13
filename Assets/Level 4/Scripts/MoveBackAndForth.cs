@@ -14,12 +14,12 @@ public class MoveBackAndForth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (startDirection == Direction.Right)
+        if (startDirection == Direction.Right) // Set direction
             direction = 1;
         else if(startDirection == Direction.Left)
             direction = -1;
 
-        startPosition = gameObject.transform.position.z;
+        startPosition = gameObject.transform.position.z; // Set bound positions
         MoveToPosition = gameObject.transform.position.z + (moveDistance * direction);
     }
 
@@ -27,14 +27,15 @@ public class MoveBackAndForth : MonoBehaviour
     void Update()
     {
         float distance = Speed * Time.deltaTime;
-        gameObject.transform.Translate(new Vector3(0, 0, distance * direction), Space.Self);
-        if (!isInBounds())
+        gameObject.transform.Translate(new Vector3(0, 0, distance * direction), Space.Self); // Move to next position
+        if (!isInBounds()) // Rotate if at destination position or back at startposition
         {
+            gameObject.transform.Translate(new Vector3(0, 0, -distance * direction), Space.Self);
             gameObject.transform.Rotate(new Vector3(0, 180, 0));
         }
     }
 
-    private bool isInBounds()
+    private bool isInBounds() //Check if gameobject is still between startposition and destination
     {
         if (startDirection == Direction.Left)
         {

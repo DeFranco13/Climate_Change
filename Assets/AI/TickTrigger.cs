@@ -5,17 +5,29 @@ using UnityEngine;
 public abstract class TickTrigger : MonoBehaviour
 {
     public int TriggerAt = 10;
+    public TriggerOn trigger = TriggerOn.Ticks;
+    public bool triggerOnce = false;
     private bool triggered = false;
 
     void Start() { }
 
     void Update()
     {
-        if(!triggered && TickObject.instance.Ticks >= TriggerAt)
+        if(trigger == TriggerOn.Ticks && (!triggerOnce && !triggered) && TickObject.instance.Ticks >= TriggerAt)
+        {
+            OnTickTrigger();
+        }
+        else if(trigger == TriggerOn.CO2 && (!triggerOnce && !triggered) && TickObject.instance.CO2 >= TriggerAt)
         {
             OnTickTrigger();
         }
     }
     
-    internal abstract void OnTickTrigger();
+    internal abstract void OnTickTrigger(); // Called when Ticks reach TriggerAt value
+}
+
+public enum TriggerOn
+{
+    Ticks,
+    CO2
 }

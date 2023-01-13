@@ -10,7 +10,7 @@ public class TickObject : MonoBehaviour
     public int Ticks {
         get { return (int)Mathf.Floor(ticks); }
     }
-    public int CO2;
+    public int CO2 = 100;
     public List<float> Multipliers = new List<float>();
     public float DefaultMultiplier = 0.1f;
     private int multiplierCount;
@@ -31,14 +31,13 @@ public class TickObject : MonoBehaviour
     }
 
 
-    void Update()
+    void Update() // Add ticks to total
     {
         setMultiplier();
         this.ticks += Time.deltaTime * multiplier;
-        Debug.Log(Ticks + " / " + CO2);
     }
 
-    private void setMultiplier()
+    private void setMultiplier() // Set multiplier based on multipliers (from checkboxes)
     {
         multiplier = 1;
         Multipliers.ForEach(e => multiplier *= e);

@@ -26,7 +26,7 @@ public class SetYear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(textField)
+        if(textField) //Set year textfield as startyear + ticks
         {
             int nextTick = TickObject.instance.Ticks;
             if (nextTick >= lastTick)

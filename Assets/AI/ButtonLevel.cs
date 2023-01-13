@@ -3,64 +3,76 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class ButtonLevel : MonoBehaviour
 {
-    public Text text;
 
-    bool isPaused = false;
+    
+    bool pause = false;
     double Time = 1;
     double TimeCounter = 1;
 
+    //Voor het spel te pauzeren wordt komende functie opgeroepen.
     public void ButtonPause()
     {
-        isPaused = true;
-        if (isPaused)
+        if (pause)
         {
-            Debug.Log("Pauze menu is true!");
-            // Screen pauzeren en ticks
-            isPaused = false;
+            //Play
+            Debug.Log("State is: playing");
+            pause = false;
+
+
         }
-        
+        else
+        {
+            //Pauze
+            Debug.Log("State is: paused");
 
+            pause = true; 
+        }
     }
-
+    //De Timer verhogen 
     public void ButtonDecrease()
     {
         Debug.Log("Decrease Time");
         TimeCounter--;
         UpdateTimer();
     }
+    //De Timer verlagen
     public void ButtonIncrease()
     {
         Debug.Log("Increase Time");
         TimeCounter++;
         UpdateTimer();
     }
+
+    // Controleren of de timer binnen de variatie in snelheden blijft anders wordt deze terug gestuurd nnaar laatste snelheid
     void UpdateTimer() {
         if (TimeCounter == 0) {
             Time = 0.5;
             Debug.Log(Time);
-           // text.text = "Time: 0.5x";
+           
         }
         else if (TimeCounter == 1) {
             Time = 1;
             Debug.Log(Time);
-            // text.text = "Time: 1x";
+            
         }
         else if (TimeCounter == 2) {
             Time = 2;
             Debug.Log(Time);
-            // text.text = "Time: 2x";
+            
         }
         else if (TimeCounter == 3) {
+            Time = 2.5;
+            Debug.Log(Time);
+            
+        }
+        else if (TimeCounter == 4)
+        {
             Time = 5;
             Debug.Log(Time);
-            // text.text = "Time: 5x";
-        }
-        else if (TimeCounter == 4) {
-            Time = 10;
-            Debug.Log(Time);
-            // text.text = "Time: 10x";
+
         }
         else if (TimeCounter > 4) {
             TimeCounter = 4;

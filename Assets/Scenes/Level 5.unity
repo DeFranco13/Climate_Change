@@ -3402,6 +3402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Waypoint 002
       objectReference: {fileID: 0}
+    - target: {fileID: 6527876427770854372, guid: de36193c1b2064440889f9d554418aec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.39
+      objectReference: {fileID: 0}
     - target: {fileID: 6527876427962121896, guid: de36193c1b2064440889f9d554418aec, type: 3}
       propertyPath: m_Name
       value: Waypoints
@@ -13114,8 +13118,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622459216}
-  m_LocalRotation: {x: -0.3812518, y: -0.11534759, z: -0.048124306, w: 0.9159837}
-  m_LocalPosition: {x: -31.608683, y: -17.550594, z: -78.33567}
+  m_LocalRotation: {x: 0.12057486, y: -0.065132596, z: -0.007824972, w: -0.99053437}
+  m_LocalPosition: {x: -20.441723, y: 29.567066, z: -87.382614}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -73,6 +73,7 @@
     <Compile Include="Assets\Level 4\Scripts\ForestFire.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
+    <Compile Include="Assets\Level 4\Scripts\Death.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneController.cs" />
@@ -85,10 +86,12 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\CameraRefocus.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\Level 4\Scripts\Deforestation.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\Level 4\Scripts\DropDead.cs" />
+    <Compile Include="Assets\EndScreen\SetScore.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Cameras\Scripts\AutoCam.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
@@ -132,7 +135,6 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\SmoothFollow.cs" />
     <Compile Include="Assets\Level 2\Scripts\DisableFire.cs" />
     <Compile Include="Assets\Level 4\Scripts\TerrainManager.cs" />
-    <Compile Include="Assets\Level 4\Scripts\SetTerrainLayerDiffuseTexture.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
@@ -168,6 +170,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\Restarter.cs" />
     <Compile Include="Assets\MainMenu\Scripts\RotateAround.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Level 4\Scripts\Migrate.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
     <Compile Include="Assets\AI\TickMultiplier.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />

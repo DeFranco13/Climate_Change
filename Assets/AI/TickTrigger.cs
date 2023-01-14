@@ -13,9 +13,9 @@ public abstract class TickTrigger : MonoBehaviour
 
     void Update() // Call OnTickTrigger if TriggerAt is at trigger and 
     {
-        if(trigger == TriggerOn.Ticks && (!triggerOnce && !triggered) && TickObject.instance.Ticks >= TriggerAt)
+        if(trigger == TriggerOn.Ticks && (!triggerOnce || (triggerOnce && !triggered)) && TickObject.instance.Ticks >= TriggerAt)
             OnTickTrigger();
-        else if(trigger == TriggerOn.CO2 && (!triggerOnce && !triggered) && TickObject.instance.TotalCO2 >= TriggerAt)
+        else if(trigger == TriggerOn.CO2 && (!triggerOnce || (triggerOnce && !triggered)) && TickObject.instance.TotalCO2 >= TriggerAt)
             OnTickTrigger();
     }
     

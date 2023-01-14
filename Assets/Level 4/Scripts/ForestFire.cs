@@ -4,19 +4,14 @@ using UnityEngine;
 
 public class ForestFire : TickMultiplierScript
 {
-    public GameObject fire;
+    public GameObject fire; // Fire object
 
-    public void Start()
-    {
-        base.Start();
-    }
-
-    public override void Do()
+    public override void Do() // Enable fire
     {
         fire.active = true;
     }
 
-    public override void Undo()
+    public override void Undo() // Disable fire
     {
         fire.active = false;
     }

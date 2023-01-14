@@ -179,6 +179,11 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\AI\SetYear.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
+    <Compile Include="Assets\AI\ShowItems.cs" />
+    <Compile Include="Assets\Level 2\Scripts\ToggleVisual.cs" />
+    <Compile Include="Assets\Level 2\Scripts\CropsDisaster.cs" />
+    <Compile Include="Assets\Level 2\Scripts\FireDisaster.cs" />
+    <Compile Include="Assets\Level 2\Scripts\DisableFire.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Level 5\Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />

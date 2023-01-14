@@ -3825,8 +3825,8 @@ MonoBehaviour:
   BackwardButton: {fileID: 904018888}
   ForwardButton: {fileID: 526644921}
   DefaultSpeedIndex: 1
-  TextfieldPrefix: 
-  TextfieldSuffix: 
+  TextfieldPrefix: 'Speed: '
+  TextfieldSuffix: X
 --- !u!114 &99390077
 MonoBehaviour:
   m_ObjectHideFlags: 0

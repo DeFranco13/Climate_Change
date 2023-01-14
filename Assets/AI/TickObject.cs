@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TickObject : MonoBehaviour
 {
@@ -52,7 +53,7 @@ public class TickObject : MonoBehaviour
             if (this.TotalCO2 >= this.GameOverCO2)
             {
                 this.Paused = true;
-                //SHOW END SCREEN
+                //SceneManager.LoadScene("EndScreen");
             }
         }
     }

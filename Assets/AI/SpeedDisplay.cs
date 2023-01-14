@@ -55,7 +55,7 @@ public class SpeedDisplay : MonoBehaviour
     {
         if(textField != null)
         {
-            textField.text = $"Speed: {this.TextfieldPrefix}{SpeedOptions[currentSpeedIndex]}{this.TextfieldSuffix}X";
+            textField.text = $"{this.TextfieldPrefix}{SpeedOptions[currentSpeedIndex]}{this.TextfieldSuffix}";
         }
     }
 }

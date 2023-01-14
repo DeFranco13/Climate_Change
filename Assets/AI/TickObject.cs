@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class TickObject : MonoBehaviour
 {
-    public static TickObject instance;
+    public static TickObject instance; // Current TickObject instance (singleton)
 
-    private float ticks;
+    private float ticks; // Current ticks
     public int Ticks {
         get { return (int)Mathf.Floor(ticks); }
     }
-    private int previousTicks;
+    private int previousTicks; // Previous ticks
 
-    public int TotalCO2 = 500;
-    public int YearlyCO2 = 10;
-    public int GameOverCO2 = 1000;
+    public int TotalCO2 = 500; // Total amount of CO2
+    public int YearlyCO2 = 10; // Yearly addition of CO2 to total
+    public int GameOverCO2 = 1000; // Game over occurs at this CO2 amount
 
-    public List<float> Multipliers = new List<float>();
+    public List<float> Multipliers = new List<float>(); // Current list of multipliers
     public float DefaultMultiplier = 0.1f;
     private float multiplier;
 

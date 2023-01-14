@@ -5,20 +5,20 @@ using UnityEngine.UI;
 
 public abstract class TickMultiplierScript : MonoBehaviour
 {
-    private Toggle toggle;
-    public bool Loop = false;
+    private Toggle toggle; // Current toggle
+    public bool Loop = false; // Wether to loop do and undo method
 
-    public void Start()
+    public void Start() // Initialize properties and add listener to toggle
     {
         toggle = GetComponent<Toggle>();
 
         if (!Loop)
         {
-            if (toggle.isOn) // Add if toggle default is on
+            if (toggle.isOn)
                 Do();
 
             toggle.onValueChanged.AddListener(delegate
-            { // When toggle changes, add/remove multiplier
+            {
                 if (toggle.isOn)
                     Do();
                 else
@@ -27,7 +27,7 @@ public abstract class TickMultiplierScript : MonoBehaviour
         }
     }
 
-    public void Update()
+    public void Update() // Call do or undo method every update if loop boolean is set to true
     {
         if(Loop)
         {
@@ -38,7 +38,7 @@ public abstract class TickMultiplierScript : MonoBehaviour
         }
     }
 
-    abstract public void Do();
+    abstract public void Do(); // Method to be executed when checkbox is toggled on
 
-    abstract public void Undo();
+    abstract public void Undo(); // Method to be executed when checkbox is toggled off
 }

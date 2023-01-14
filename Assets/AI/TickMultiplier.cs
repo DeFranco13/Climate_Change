@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class TickMultiplier : MonoBehaviour
 {
-    public int CO2Addition = 0;
-    private Toggle toggle;
+    public int CO2Addition = 0; // Addition to yearly CO2
+    private Toggle toggle; // Current toggle
 
-    public void Start()
+    public void Start() // Initialize properties and set listener on toggle
     {
         toggle = GetComponent<Toggle>();
 
@@ -21,12 +21,12 @@ public class TickMultiplier : MonoBehaviour
         });
     }
 
-    private void add() // Add multiplier and CO2
+    private void add() // Add CO2Addition to yearly CO2
     {
         TickObject.instance.YearlyCO2 += CO2Addition;
     }
 
-    private void remove()// Remove multiplier and CO2
+    private void remove() // Remove CO2Addition to yearly CO2
     {
         TickObject.instance.YearlyCO2 -= CO2Addition;
     }

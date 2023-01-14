@@ -3646,9 +3646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58017e4703da98547b629f7e8c011628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pause: 0
-  Time: 1
-  TimeCounter: 1
 --- !u!114 &1602777852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3945,6 +3942,8 @@ MonoBehaviour:
   BackwardButton: {fileID: 749349045}
   ForwardButton: {fileID: 1747436840}
   DefaultSpeedIndex: 1
+  TextfieldPrefix: 'Speed: '
+  TextfieldSuffix: X
 --- !u!114 &1745233821
 MonoBehaviour:
   m_ObjectHideFlags: 0

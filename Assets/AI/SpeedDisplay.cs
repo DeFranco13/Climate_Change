@@ -6,22 +6,22 @@ using UnityEngine.UI;
 
 public class SpeedDisplay : MonoBehaviour
 {
-    public List<float> SpeedOptions = new List<float>();
-    public Button BackwardButton;
-    public Button ForwardButton;
-    public int DefaultSpeedIndex = 0;
-    private int currentSpeedIndex = 0;
-    private TMP_Text textField;
+    public List<float> SpeedOptions = new List<float>(); // Time speed options
+    public Button BackwardButton; // Button to slow down time
+    public Button ForwardButton; // Button to speed up time
+    public int DefaultSpeedIndex = 0; // Index of default time
+    private int currentSpeedIndex = 0; // Current index of time
+    private TMP_Text textField; // Textfield for displaying the current time
+    public string TextfieldPrefix; // Prefix for textfield
+    public string TextfieldSuffix; // Suffix for textfield
 
-    // Start is called before the first frame update
-    void Start()
+    void Start() // Initialize properties and set listeners on updates
     {
         textField = GetComponent<TextMeshProUGUI>();
         currentSpeedIndex = DefaultSpeedIndex;
         TickObject.instance.Multipliers.Add(SpeedOptions[currentSpeedIndex]);
         setSpeedText();
         
-        // Set listener on backbutton if it exists
         if (BackwardButton != null)
         {
             BackwardButton.onClick.AddListener(() =>
@@ -36,7 +36,6 @@ public class SpeedDisplay : MonoBehaviour
             });
         }
 
-        // Set listener on forwardbutton if it exists
         if (ForwardButton != null)
         {
             ForwardButton.onClick.AddListener(() =>
@@ -52,11 +51,11 @@ public class SpeedDisplay : MonoBehaviour
         }
     }
 
-    private void setSpeedText() // Set textfield
+    private void setSpeedText() // Set textfield with current speed
     {
         if(textField != null)
         {
-            textField.text = $"Speed: {SpeedOptions[currentSpeedIndex]}X";
+            textField.text = $"{this.TextfieldPrefix}{SpeedOptions[currentSpeedIndex]}{this.TextfieldSuffix}";
         }
     }
 }

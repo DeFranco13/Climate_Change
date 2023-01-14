@@ -8,13 +8,11 @@ public class ForestFire : TickMultiplierScript
     
     public override void Do()
     {
-        Debug.Log("DO");
-        base.Do();
+        
     }
 
     public override void Undo()
     {
-        Debug.Log("UNDO");
-        base.Undo();
+        
     }
 }

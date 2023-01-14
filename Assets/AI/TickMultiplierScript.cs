@@ -6,24 +6,39 @@ using UnityEngine.UI;
 public abstract class TickMultiplierScript : MonoBehaviour
 {
     private Toggle toggle;
+    public bool Loop = false;
 
     public void Start()
     {
         toggle = GetComponent<Toggle>();
 
-        if (toggle.isOn) // Add if toggle default is on
-            Do();
+        if (!Loop)
+        {
+            if (toggle.isOn) // Add if toggle default is on
+                Do();
 
-        toggle.onValueChanged.AddListener(delegate { // When toggle changes, add/remove multiplier
+            toggle.onValueChanged.AddListener(delegate
+            { // When toggle changes, add/remove multiplier
+                if (toggle.isOn)
+                    Do();
+                else
+                    Undo();
+            });
+        }
+    }
+
+    public void Update()
+    {
+        if(Loop)
+        {
             if (toggle.isOn)
                 Do();
             else
                 Undo();
-                
-        });
+        }
     }
 
-    virtual public void Do() { }
+    abstract public void Do();
 
-    virtual public void Undo() { }
+    abstract public void Undo();
 }

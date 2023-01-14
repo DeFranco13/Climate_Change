@@ -15,6 +15,7 @@ public class TickObject : MonoBehaviour
     public float DefaultMultiplier = 0.1f;
     private int multiplierCount;
     private float multiplier;
+    public bool paused = false;
 
 
     void Start()
@@ -33,8 +34,11 @@ public class TickObject : MonoBehaviour
 
     void Update() // Add ticks to total
     {
-        setMultiplier();
-        this.ticks += Time.deltaTime * multiplier;
+        if(!paused)
+        {
+            setMultiplier();
+            this.ticks += Time.deltaTime * multiplier;
+        }
     }
 
     private void setMultiplier() // Set multiplier based on multipliers (from checkboxes)

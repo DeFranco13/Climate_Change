@@ -17,13 +17,13 @@ public class TickObject : MonoBehaviour
     public int GameOverCO2 = 1000; // Game over occurs at this CO2 amount
 
     public List<float> Multipliers = new List<float>(); // Current list of multipliers
-    public float DefaultMultiplier = 0.1f;
-    private float multiplier;
+    public float DefaultMultiplier = 0.1f; // Default speed multiplier
+    private float multiplier; // Current multiplier
 
-    public bool Paused = false;
+    public bool Paused = false; // Wether ticks are paused or not
 
 
-    void Start()
+    void Start() // Initialize parameters and set multipliers
     {
         if (instance != null && instance != this)
             Destroy(this);
@@ -36,7 +36,7 @@ public class TickObject : MonoBehaviour
     }
 
 
-    void Update() // Add ticks to total
+    void Update() // Add ticks to total if game is not paussed and check if TotalCO2 higher than GameOverCO2
     {
         if(!Paused)
         {

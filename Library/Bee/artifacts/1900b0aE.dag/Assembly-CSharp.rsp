@@ -364,6 +364,7 @@
 "Assets/AI/TickMultiplierScript.cs"
 "Assets/AI/TickObject.cs"
 "Assets/AI/TickTrigger.cs"
+"Assets/EndScreen/Loader.cs"
 "Assets/Level 1/Script/CarMovement.cs"
 "Assets/Level 1/Script/Ramp.cs"
 "Assets/Level 1/Script/RisingWater.cs"

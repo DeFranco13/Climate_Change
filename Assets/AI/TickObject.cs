@@ -53,7 +53,7 @@ public class TickObject : MonoBehaviour
             if (this.TotalCO2 >= this.GameOverCO2)
             {
                 this.Paused = true;
-                //SceneManager.LoadScene("EndScreen");
+                SceneManager.LoadScene("EndScreen");
             }
         }
     }
@@ -62,5 +62,10 @@ public class TickObject : MonoBehaviour
     {
         multiplier = 1;
         Multipliers.ForEach(e => multiplier *= e);
+    }
+
+    void OnDisable()
+    {
+        PlayerPrefs.SetInt("score", 2023+Ticks);
     }
 }

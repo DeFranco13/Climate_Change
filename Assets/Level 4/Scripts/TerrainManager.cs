@@ -19,7 +19,7 @@ public class TerrainManager : MonoBehaviour
     {
         for(int i=0; i<TriggerAt.Length; i++)
         {
-            if(TriggerAt[i] <= TickObject.instance.CO2)
+            if(TriggerAt[i] <= TickObject.instance.TotalCO2)
             {
                 if (TerrainLayer != null)
                     TerrainLayer.diffuseTexture = DiffuseTexture[i];

@@ -10,12 +10,17 @@ public class TickObject : MonoBehaviour
     public int Ticks {
         get { return (int)Mathf.Floor(ticks); }
     }
-    public int CO2 = 100;
+    private int previousTicks;
+
+    public int TotalCO2 = 500;
+    public int YearlyCO2 = 10;
+    public int GameOverCO2 = 1000;
+
     public List<float> Multipliers = new List<float>();
     public float DefaultMultiplier = 0.1f;
-    private int multiplierCount;
     private float multiplier;
-    public bool paused = false;
+
+    public bool Paused = false;
 
 
     void Start()
@@ -25,19 +30,30 @@ public class TickObject : MonoBehaviour
         else
             instance = this;
 
-        multiplierCount = 0;
-        multiplier = 1f;
-        CO2 = 100;
+        setMultiplier();
         Multipliers.Add(DefaultMultiplier);
+        this.previousTicks = this.Ticks;
     }
 
 
     void Update() // Add ticks to total
     {
-        if(!paused)
+        if(!Paused)
         {
             setMultiplier();
             this.ticks += Time.deltaTime * multiplier;
+            if(previousTicks != this.Ticks)
+            {
+                previousTicks = this.Ticks;
+                this.TotalCO2 += this.YearlyCO2;
+            }
+
+
+            if (this.TotalCO2 >= this.GameOverCO2)
+            {
+                this.Paused = true;
+                //SHOW END SCREEN
+            }
         }
     }
 
@@ -45,6 +61,5 @@ public class TickObject : MonoBehaviour
     {
         multiplier = 1;
         Multipliers.ForEach(e => multiplier *= e);
-        multiplierCount = Multipliers.Count;
     }
 }

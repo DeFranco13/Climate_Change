@@ -14,13 +14,11 @@ public abstract class TickTrigger : MonoBehaviour
     void Update()
     {
         if(trigger == TriggerOn.Ticks && (!triggerOnce && !triggered) && TickObject.instance.Ticks >= TriggerAt)
-        {
             OnTickTrigger();
-        }
-        else if(trigger == TriggerOn.CO2 && (!triggerOnce && !triggered) && TickObject.instance.CO2 >= TriggerAt)
-        {
+        else if(trigger == TriggerOn.CO2 && (!triggerOnce && !triggered) && TickObject.instance.TotalCO2 >= TriggerAt)
             OnTickTrigger();
-        }
+        else if (trigger == TriggerOn.Both && (!triggerOnce && !triggered) && TickObject.instance.Ticks >= TriggerAt && TickObject.instance.TotalCO2 >= TriggerAt)
+            OnTickTrigger();
     }
     
     internal abstract void OnTickTrigger(); // Called when Ticks reach TriggerAt value
@@ -29,5 +27,6 @@ public abstract class TickTrigger : MonoBehaviour
 public enum TriggerOn
 {
     Ticks,
-    CO2
+    CO2,
+    Both
 }

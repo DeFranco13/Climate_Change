@@ -164,7 +164,6 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
     <Compile Include="Assets\AI\TickMultiplier.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
-    <Compile Include="Assets\AI\ButtonLevel.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\EventSystemChecker.cs" />

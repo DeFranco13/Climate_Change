@@ -717,10 +717,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TerrainLayer: {fileID: 8574412962073106934, guid: f6f22728c17ed2e4a9c8daa007dd5a35, type: 2}
   TriggerAt:
-  - 100
-  - 135
-  - 165
-  - 200
+  - 0
+  - 650
+  - 950
+  - 1350
   DiffuseTexture:
   - {fileID: 2800000, guid: 5e9e2c3e90768554583a8207444ba23d, type: 3}
   - {fileID: 2800000, guid: 057ce74dc964c0a4895578ac661dc028, type: 3}
@@ -1798,7 +1798,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b39d053767617440913283827573194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Multiplier: 1
   CO2Addition: 50
 --- !u!114 &843695664
 MonoBehaviour:
@@ -2171,9 +2170,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77c26a71aabfbc440a0e0f9785618d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CO2: 0
+  TotalCO2: 500
+  YearlyCO2: 20
+  GameOverCO2: 1500
   Multipliers: []
   DefaultMultiplier: 0.1
+  Paused: 0
 --- !u!1 &919109091
 GameObject:
   m_ObjectHideFlags: 0
@@ -3020,7 +3022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Prefix: 'Year: '
-  StartYear: 2022
+  StartYear: 2023
 --- !u!114 &1136353858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3041,7 +3043,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Year:   2022'
+  m_text: 'Year: 2022'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 86eedf77d48af2640be8a5cd515117b8, type: 2}
   m_sharedMaterial: {fileID: 2553154389887896539, guid: 86eedf77d48af2640be8a5cd515117b8, type: 2}
@@ -3644,6 +3646,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58017e4703da98547b629f7e8c011628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pause: 0
+  Time: 1
+  TimeCounter: 1
 --- !u!114 &1602777852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4240,8 +4245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b39d053767617440913283827573194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Multiplier: 1
-  CO2Addition: 35
+  CO2Addition: 15
 --- !u!114 &1750376462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4288,19 +4292,7 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1602777852}
-        m_TargetAssemblyTypeName: ToggleLevel_4, Assembly-CSharp
-        m_MethodName: WindTurbinesToggle
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 0
+      m_Calls: []
   m_IsOn: 0
 --- !u!1 &1760097000
 GameObject:

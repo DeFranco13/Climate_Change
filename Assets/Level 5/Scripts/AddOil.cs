@@ -15,7 +15,7 @@ public class AddOil : MonoBehaviour
 			{
 				if (TickObject.instance.TotalCO2 % 20 == 0)
 				{
-					Oil.transform.localScale += new Vector3(0.007f, 0, 0.007f);
+					Oil.transform.localScale += new Vector3(0.035f, 0, 0.035f);
 				}
 			}
 		}

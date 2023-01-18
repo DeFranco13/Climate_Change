@@ -499,6 +499,7 @@
 "Assets/Level 5/Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs"
 "Assets/Level 5/Scripts/AddOil.cs"
 "Assets/Level 5/Scripts/SpawnFish.cs"
+"Assets/Level 5/Scripts/ToggleBoats.cs"
 "Assets/Level 5/ToggleLevel_5.cs"
 "Assets/MainMenu/Scripts/LoadLevel.cs"
 "Assets/MainMenu/Scripts/QuictScript.cs"

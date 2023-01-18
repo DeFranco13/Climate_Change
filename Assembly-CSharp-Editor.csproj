@@ -56,12 +56,11 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Level 3\Blink\Art\Characters\LowPoly\Editor\MaterialTilingOffset.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Editor\Water\Water4\PlanarReflectionEditor.cs" />
-    <Compile Include="Assets\Level 3\RainMaker\Editor\RainMakerEditor.cs" />
+    <Compile Include="Assets\Level 3\assets\RainMaker\Editor\RainMakerEditor.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
   </ItemGroup>

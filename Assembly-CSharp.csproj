@@ -81,7 +81,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
     <Compile Include="Assets\AI\ShowItems.cs" />
-    <Compile Include="Assets\Level 3\RainMaker\Prefab\RainCollision.cs" />
+    <Compile Include="Assets\Level 3\assets\RainMaker\Prefab\RainCollision.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\TimedObjectActivator.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
@@ -93,7 +93,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\Level 4\Scripts\DropDead.cs" />
-    <Compile Include="Assets\Level 3\RainMaker\Prefab\BaseRainScript.cs" />
+    <Compile Include="Assets\Level 3\assets\RainMaker\Prefab\BaseRainScript.cs" />
     <Compile Include="Assets\EndScreen\SetScore.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Cameras\Scripts\AutoCam.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
@@ -108,7 +108,7 @@
     <Compile Include="Assets\Level 1\Script\RisingWater.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
     <Compile Include="Assets\Level 4\Scripts\MoveBackAndForth.cs" />
-    <Compile Include="Assets\Level 3\ToggleLevel_3.cs" />
+    <Compile Include="Assets\Level 3\scripts\ToggleLevel_3.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
@@ -119,7 +119,7 @@
     <Compile Include="Assets\Level 2\Scripts\CropsDisaster.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\AutoMoveAndRotate.cs" />
     <Compile Include="Assets\Level 2\Scripts\CarMove.cs" />
-    <Compile Include="Assets\Level 3\RainMaker\Prefab\RainScript.cs" />
+    <Compile Include="Assets\Level 3\assets\RainMaker\Prefab\RainScript.cs" />
     <Compile Include="Assets\MainMenu\Scripts\LoadLevel.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Level 4\ToggleLevel_4.cs" />
@@ -142,7 +142,7 @@
     <Compile Include="Assets\Level 3\scripts\SpreadFire.cs" />
     <Compile Include="Assets\Level 2\Scripts\DisableFire.cs" />
     <Compile Include="Assets\Level 4\Scripts\TerrainManager.cs" />
-    <Compile Include="Assets\Level 3\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
+    <Compile Include="Assets\Level 3\assets\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
     <Compile Include="Assets\Level 3\scripts\togglescript_lvl3.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\WaypointCircuit.cs" />
@@ -151,7 +151,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
-    <Compile Include="Assets\Level 3\RainMaker\Prefab\RainScript2D.cs" />
+    <Compile Include="Assets\Level 3\assets\RainMaker\Prefab\RainScript2D.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
@@ -181,7 +181,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\Restarter.cs" />
     <Compile Include="Assets\MainMenu\Scripts\RotateAround.cs" />
-    <Compile Include="Assets\Level 3\RainMaker\Demo\DemoScript.cs" />
+    <Compile Include="Assets\Level 3\assets\RainMaker\Demo\DemoScript.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Level 4\Scripts\Migrate.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
@@ -189,7 +189,7 @@
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
     <Compile Include="Assets\AI\SetPaused.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-    <Compile Include="Assets\Level 3\RainMaker\Demo\DemoScript2D.cs" />
+    <Compile Include="Assets\Level 3\assets\RainMaker\Demo\DemoScript2D.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\EventSystemChecker.cs" />
     <Compile Include="Assets\Level 5\Assets\Standard Assets\Utility\ActivateTrigger.cs" />
@@ -217,14 +217,14 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
-    <None Include="Assets\Level 3\POLYGON city pack\Read_me.txt" />
+    <None Include="Assets\Level 3\assets\POLYGON city pack\Read_me.txt" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
-    <None Include="Assets\Level 3\RainMaker\Readme.txt" />
+    <None Include="Assets\Level 3\assets\RainMaker\Readme.txt" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -244,7 +244,7 @@
     <None Include="Assets\Level 5\Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Level 3\RainMaker\Prefab\RainShader.shader" />
+    <None Include="Assets\Level 3\assets\RainMaker\Prefab\RainShader.shader" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Level 5\Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />

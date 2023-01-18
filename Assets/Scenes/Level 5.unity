@@ -4486,7 +4486,7 @@ GameObject:
   - component: {fileID: 176147057}
   m_Layer: 0
   m_Name: Boats
-  m_TagString: Untagged
+  m_TagString: Boats
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12093,6 +12093,7 @@ GameObject:
   - component: {fileID: 590383218}
   - component: {fileID: 590383219}
   - component: {fileID: 590383220}
+  - component: {fileID: 590383221}
   m_Layer: 5
   m_Name: Toggle 2
   m_TagString: Untagged
@@ -12195,6 +12196,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CO2Addition: 40
+--- !u!114 &590383221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590383217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de7a0d3ff420494dafed736fd28cd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boats: {fileID: 176147056}
 --- !u!1 &591458393
 GameObject:
   m_ObjectHideFlags: 0
@@ -36882,8 +36896,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990711666}
-  m_LocalRotation: {x: 0.53849375, y: -0.09681718, z: -0.06235408, w: -0.83472323}
-  m_LocalPosition: {x: -43.80358, y: -19.535892, z: -83.94188}
+  m_LocalRotation: {x: -0.36192647, y: -0, z: -0, w: 0.9322067}
+  m_LocalPosition: {x: -23.690311, y: -0.17677307, z: -87.63081}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

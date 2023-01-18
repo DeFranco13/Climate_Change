@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FireDisaster : TickTrigger
 {
+//Property for fire object
     public GameObject fire;
 
     internal override void OnTickTrigger()
@@ -11,6 +12,7 @@ public class FireDisaster : TickTrigger
         Fire();
     }
 
+    //method that enables the fire on the tree
     private void Fire()
     {
         if (TickObject.instance.TotalCO2>=1000)

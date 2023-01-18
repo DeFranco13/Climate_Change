@@ -20,12 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 4.unity
     guid: c6d102ca7a7f80e4788d74702f218dc5
-  - enabled: 1
-    path: Assets/Scenes/Level 5.unity
-    guid: d1b136acc5f971e49a6fef86681592a5
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/EndScreen.unity
     guid: ee6be269e373ac3468b5dbfbdddf304d
   m_configObjects:
-    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: e7bbae3659c04664b9ec397b2783d849, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 3e131e5c48518a246bf331f112dee477, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9ed634ff2877c434d83cdbe176e98f8e, type: 2}

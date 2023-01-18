@@ -11,7 +11,9 @@ public class SpreadFire : TickTrigger
    
     
     private Toggle toggle;
+
     // call the methodes
+    
     internal override void OnTickTrigger()
     {
         
@@ -48,10 +50,7 @@ public class SpreadFire : TickTrigger
                 {
                     Fire.active = true;
                     Fire.transform.localScale += new Vector3((float)0.08f, (float)0.08f ,0.08f);
-                    if (TickObject.instance.TotalCO2 > 500 && GetComponent<ActivateRain>().IsOn() == true)
-                    {
-                        Fire.transform.localScale -= new Vector3((float)0.1f, (float)0.1f, 0.1f);
-                    }
+                   
 
                 }
                
